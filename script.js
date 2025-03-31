@@ -118,4 +118,16 @@ function guardarTareas() {
     mostrarTareas();
 }
 
+let botonModoOscuro = document.getElementById("modoOscuro");
+
+botonModoOscuro.onclick = () => {
+    document.body.classList.toggle("oscuro");
+    localStorage.setItem("modoOscuro", document.body.classList.contains("oscuro"));
+};
+
+if (localStorage.getItem("modoOscuro") === "true") {
+    document.body.classList.add("oscuro");
+}
+
+
 mostrarTareas();

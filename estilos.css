@@ -68,3 +68,28 @@ small {
     font-weight: bold;
     color: #28a745;
 }
+
+body.oscuro {
+    background-color: #121212;
+    color: white;
+}
+
+body.oscuro button {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+}
+
+body.oscuro input, body.oscuro textarea {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.oscuro li {
+    background-color: #1e1e1e;
+}
+
+body.oscuro .completada {
+    color: #bbbbbb;
+}
