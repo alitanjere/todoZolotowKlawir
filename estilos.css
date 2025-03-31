@@ -1,33 +1,70 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-input {
-    padding: 5px;
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
 }
 
 button {
-    padding: 5px 10px;
-    margin: 5px;
     cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin-top: 20px;
 }
 
 li {
-    background: #f0f0f0;
-    padding: 10px;
-    margin: 5px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .completada {
     text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+small {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+}
+
+#tareaMasRapida {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #28a745;
 }

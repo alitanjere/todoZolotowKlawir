@@ -8,10 +8,21 @@
 </head>
 <body>
     <h1>Lista de Tareas</h1>
-    <input type="text" id="entrada" placeholder="Escribe una tarea">
-    <button id="botonAgregar">Agregar</button>
-    <ul id="lista"></ul>
-    <button id="botonEliminarCompletadas">Eliminar Completadas</button>
+    
+    <input type="text" id="entradaTarea" placeholder="Escribe una tarea">
+    <button id="agregarTarea">Agregar</button>
+
+    <div>
+        <button id="filtroTodas">Todas</button>
+        <button id="filtroPendientes">Pendientes</button>
+        <button id="filtroCompletadas">Completadas</button>
+        <button id="eliminarCompletadas">Eliminar Completadas</button>
+    </div>
+
+    <ul id="listaTareas"></ul>
+
+    <div id="tareaMasRapida">🏆 Tarea más rápida: Aún no hay tareas completadas.</div>
+
     <script src="script.js"></script>
 </body>
 </html>
